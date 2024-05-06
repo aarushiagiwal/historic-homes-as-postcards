@@ -1,0 +1,110 @@
+body{
+    margin:3%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.envelope{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-right: 20px;
+}
+
+.envelope{
+margin-top:30%;
+}
+
+.openenvelope
+{
+    position: relative;
+    width:180px;
+    top: 0;
+    left: 0;
+}
+
+.openenvelope:hover{
+    opacity: 0%;
+    cursor: pointer;
+}
+
+.closeenvelope{
+    position: absolute;
+    width:180px;
+    top: 0;
+    left: 0;
+
+}
+
+h1{
+    font-family: "franklin-gothic-urw", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size:20px;
+}
+
+.scroll-outer-container {
+    overflow-x: scroll;
+
+  }
+  
+.scroll-inner-container{
+    display: flex;
+    
+
+}
+
+.container{
+    margin-right:20px;
+}
+
+.image{
+    margin-top:265%;
+    width: 180px;
+}
+
+.year{
+    font-family: franklin-gothic-urw, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size:16px;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+display:none;}
+
+
+#popup{
+    display:none;
+    position: fixed;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+
+  .detailimg{
+    width: 650px;
+    margin-top:-200px;
+
+  }
+
+
+  .detailback{
+        width: 650px;
+        margin-top:-200px;
+  }
+
+  .detail-view{
+    position: relative;
+  }
+
+  .detail-back{
+        position: absolute;
+        z-index: -1;
+        top:0;
+        left:0;
+        
+  }
