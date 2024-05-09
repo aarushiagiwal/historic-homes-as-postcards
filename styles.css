@@ -63,6 +63,7 @@ h1{
     width: 180px;
 }
 
+.image:hover{cursor: pointer;}
 .year{
     font-family: franklin-gothic-urw, sans-serif;
     font-weight: 500;
@@ -110,6 +111,7 @@ display:none;}
   /* Do an horizontal flip when you move the mouse over the flip box container */
   #pop-up-details:hover .toggle {
     transform: rotateY(180deg);
+    cursor: pointer;
   }
   
   /* Position the front and back side */
